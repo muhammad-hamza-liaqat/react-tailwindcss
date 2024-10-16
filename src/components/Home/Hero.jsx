@@ -14,25 +14,25 @@ export default function Hero() {
                 </div>
 
                 <div className='mt-10 border border-black rounded-xl p-10 '>
-                    <p>Checkout</p>
-                    <div>
+                    <p className='text-center font-bold text-2xl'>Checkout</p>
+                    <div className='flex justify-around'>
                         <p>Current Price </p>
                         <p> 200 USDT</p>
                     </div>
 
-                    <div>
+                    <div className='flex justify-around'>
                         <p>Quantity</p>
                         <textarea name="amount" id="amount">Amount</textarea>
                     </div>
 
-                    <div>
+                    <div className='flex justify-around'>
                         <p>USTD</p>
-                        <button className='bg-red-600 text-white hover:bg-transparent'> Connect </button>
+                        <button className='bg-red-600 text-white p-1 rounded-xl hover:bg-transparent hover:text-black'> Connect </button>
                     </div>
-                    <p>
+                    <p className='mt-3 p-1'>
                         Price Increase per 200 sold will be +20 USDT
                     </p>
-                    <p>
+                    <p className='mt-1'>
                         (starting from #10,001)
                     </p>
                 </div>
