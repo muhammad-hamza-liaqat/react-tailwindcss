@@ -36,6 +36,8 @@ export default function Hero() {
                         (starting from #10,001)
                     </p>
                 </div>
+
+
             </div>
 
         </>
