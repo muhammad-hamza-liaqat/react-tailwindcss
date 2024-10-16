@@ -4,9 +4,9 @@ export default function Hero() {
     return (
         <>
             <div className='flex justify-around'>
-                <div className='mt-10 border border-black rounded-xl p-10'>
-                    <p>Tissue Box Sold </p>
-                    <p>  67</p>
+                <div className='mt-10 border border-black rounded-xl p-10 flex flex-col justify-center'>
+                    <p className='text-lg font-bold'>Tissue Box Sold</p>
+                    <p className='mt-3 text-center text-2xl font-bold'>67</p>
                 </div>
 
                 <div className='mt-10 border border-black rounded-xl p-20'>
