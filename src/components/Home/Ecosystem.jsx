@@ -52,10 +52,10 @@ export default function Ecosystem() {
                     </div>
 
                     <div className='image3 flex p-2  justify-center'>
-                        <img src={powered1} alt="" className='w-30 h-32 object-contain mr-5' />
-                        <img src={powered2} alt="" className='w-24 h-32 object-contain mr-5' />
-                        <img src={powered3} alt="" className='w-24 h-32 object-contain mr-5' />
-                        <img src={powered4} alt="" className='w-24 h-32 object-contain' />
+                        <img src={powered1} alt="" className='w-30 h-24 object-contain mr-5' />
+                        <img src={powered2} alt="" className='w-24 h-24 object-contain mr-5' />
+                        <img src={powered3} alt="" className='w-24 h-24  object-contain mr-5 bg-slate-800 rounded-3xl' />
+                        <img src={powered4} alt="" className='w-24 h-24 object-contain bg-slate-800 rounded-3xl' />
                     </div>
                 </div>
 
