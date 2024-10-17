@@ -62,6 +62,13 @@ export default function Ecosystem() {
                         <img src={c4} alt="" className='w-24 h-24 object-contain bg-slate-800 rounded-3xl' />
                     </div>
 
+                    <div className="image3 flex p-2  justify-center">
+                        <p className="w-30 h-24 object-contain mr-5">qwertyuiop</p>
+                        <p className="w-24 h-24 object-contain mr-5">hamza</p>
+                        <p className="w-24 h-24 object-contain mr-5">hamza </p>
+                        <p className="w-24 h-24 object-contain">hamza</p>
+                    </div>
+
                 </div>
 
 
