@@ -52,27 +52,37 @@ export default function Ecosystem() {
 
                 <div className="c4">
                     <div className="head flex justify-center mt-1">
-                        <p className='text-2xl font-bold '>Content & Benefits</p>
+                        <p className="text-2xl font-bold">Content & Benefits</p>
                     </div>
 
-                    <div className='image3 flex p-2 mt-10 justify-center'>
-                        <img src={c1} alt="" className='w-30 h-24 object-contain mr-5' />
-                        <img src={c2} alt="" className='w-24 h-24 object-contain mr-5' />
-                        <img src={c3} alt="" className='w-24 h-24  object-contain mr-5 bg-slate-800 rounded-3xl' />
-                        <img src={c4} alt="" className='w-24 h-24 object-contain bg-slate-800 rounded-3xl' />
+                    <div className="image3 flex p-2 mt-10 justify-center">
+                        <div className="flex flex-col items-center mr-5">
+                            <img src={c1} alt="" className="w-30 h-24 object-contain" />
+                            <p className="mt-2">Power up </p>
+                            <p className="">Staking Reward </p>
+                        </div>
+                        <div className="flex flex-col items-center mr-5">
+                            <img src={c2} alt="" className="w-24 h-24 object-contain" />
+                            <p className="mt-2">Unlock VIP</p>
+                            <p className="">contents</p>
+                        </div>
+                        <div className="flex flex-col items-center mr-5">
+                            <img src={c3} alt="" className="w-24 h-24 object-contain bg-slate-800 rounded-3xl" />
+                            <p className="mt-2">Additionally</p>
+                            <p className="">Rewards(NFTs, </p>
+                            <p className="">Airdrops)</p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <img src={c4} alt="" className="w-24 h-24 object-contain bg-slate-800 rounded-3xl" />
+                            <p className="mt-2">$SPLA Daily</p>
+                            <p className="">Income</p>
+                        </div>
                     </div>
-
-                    <div className="image3 flex p-2  justify-center">
-                        <p className="w-30 h-24 object-contain mr-5">qwertyuiop</p>
-                        <p className="w-24 h-24 object-contain mr-5">hamza</p>
-                        <p className="w-24 h-24 object-contain mr-5">hamza </p>
-                        <p className="w-24 h-24 object-contain">hamza</p>
-                    </div>
-
                 </div>
 
 
-                <div className="c4">
+
+                <div className="c5">
                     <div className="head flex justify-center mt-10">
                         <p className='text-2xl font-bold bg-red-700 text-white rounded-2xl p-2 '>Tissue Box</p>
                         <p className='text-2xl font-bold p-2'>is powdered by</p>
