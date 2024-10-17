@@ -18,7 +18,7 @@ export default function Ecosystem() {
 
 
                 <div className="c1">
-                    <div className="head flex justify-center mt-10">
+                    <div className="head flex justify-center">
                         <p className='text-2xl font-bold'>Ecosystem</p>
                     </div>
 

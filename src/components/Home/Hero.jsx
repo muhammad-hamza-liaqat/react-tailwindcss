@@ -52,9 +52,9 @@ export default function Hero() {
 
                     {/* Price Info */}
                     <p className='text-sm text-white'>
-                        Price Increase per 200 sold will be +20 USDT
+                        Price Increase per 200 sold will be +20 USDT (starting from #10,001)
                     </p>
-                    <p className='text-sm text-white'>(starting from #10,001)</p>
+                    {/* <p className='text-sm text-white'>(starting from #10,001)</p> */}
                 </div>
             </div>
         </>
