@@ -4,7 +4,7 @@ import video from "../../assets/videos/video.mp4";
 export default function Hero2() {
     return (
         <>
-            <div className="Parent mt-8 px-14" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
+            <div className="Parent py-8 px-14" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
                 <div className='p2'>
                     <div className='flex flex-col md:flex-row md:justify-around gap-8'>
 

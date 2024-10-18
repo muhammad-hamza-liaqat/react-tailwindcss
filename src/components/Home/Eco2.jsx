@@ -11,7 +11,7 @@ export default function Eco2() {
     return (
         <>
             <div className="parent" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }} >
-                <p className='text-center font-bold text-2xl mt-5 text-white'>Ecosystem</p>
+                <p className='text-center font-bold text-2xl py-5 text-white'>Ecosystem</p>
 
                 {/* image1 */}
                 <div className='images'>
