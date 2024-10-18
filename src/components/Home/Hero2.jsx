@@ -42,8 +42,8 @@ export default function Hero2() {
 
                             <div className='mt-3'>
                                 <div className='flex items-center justify-between'>
-                                    <p className='mr-14 text-lg'>USDT</p>
-                                    <button className='bg-red-600 px-4 py-2 rounded-md text-white'>
+                                    <p className='md:mr-14 text-lg'>USDT</p>
+                                    <button className='bg-red-600 rounded-xl p-1 md:px-4 md:py-2 md:rounded-md text-white'>
                                         Connect
                                     </button>
                                 </div>

@@ -4,6 +4,7 @@ import Hero from '../components/Home/Hero'
 import Ecosystem from '../components/Home/Ecosystem'
 import Nav2 from '../components/NavBar/Nav2'
 import Hero2 from '../components/Home/Hero2'
+import Eco2 from '../components/Home/Eco2'
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Ecosystem/> */}
         <Nav2/>
         <Hero2/>
+        <Eco2/>
         </>
     )
 }
