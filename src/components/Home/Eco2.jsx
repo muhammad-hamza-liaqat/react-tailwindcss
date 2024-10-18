@@ -2,6 +2,10 @@ import React from 'react'
 import mechanism from "../../assets/images/mechanism.png"
 import price from "../../assets/images/price.png"
 import tokenomics from "../../assets/images/tokenomics.png"
+import c1 from "../../assets/images/c1.png"
+import c2 from "../../assets/images/c2.png"
+import c3 from "../../assets/images/c3.png"
+import c4 from "../../assets/images/c4.png"
 
 export default function Eco2() {
     return (
@@ -25,11 +29,61 @@ export default function Eco2() {
 
                     {/* image 3 */}
                     <div className='image3 w-auto h-auto px-12'>
-                        <img src={tokenomics} alt="+logo3" className='rounded-2xl'/>
+                        <img src={tokenomics} alt="+logo3" className='rounded-2xl' />
                     </div>
                 </div>
 
 
+            </div>
+
+            {/* content and benefits */}
+            <div className="main" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
+                <p className='text-white text-center text-2xl mb-12'>Contents & Benefits </p>
+                <div className="content flex justify-center gap-14">
+                    <div className="1">
+                        <img src={c1} alt="" className='' style={{ width: '100px', height: 'auto' }} />
+                    </div>
+                    <div className="2">
+                        <img src={c2} alt="" style={{ width: '100px', height: 'auto' }} />
+                    </div>
+                    <div className="3">
+                        <img src={c3} alt="" style={{ width: '100px', height: 'auto' }} />
+                    </div>
+                    <div className="4">
+                        <img src={c4} alt="" style={{ width: '100px', height: 'auto' }} />
+                    </div>
+                </div>
+            </div>
+
+            {/* text of content and benefits */}
+            <div className="mains" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
+                <div className='flex text-white gap-14 ml-96'>
+                    <div className="1">
+                        <p>
+                            Power Up
+                        </p>
+                        <p>
+                            Staking Rewards
+                        </p>
+                    </div>
+                    <div className="2">
+                        <p>
+                            Unlock VIP
+                        </p>
+                        <p>
+                            contents
+                        </p>
+                    </div>
+                    <div className="3">
+                        <p>Additional</p>
+                        <p>Rewards (NFTs,</p>
+                        <p>Airdrops)</p>
+                    </div>
+                    <div className="4">
+                        <p>$SPLA Daily </p>
+                        <p>Income</p>
+                    </div>
+                </div>
             </div>
         </>
     )
