@@ -5,10 +5,10 @@ export default function Hero2() {
         <>
             <div className="Parent mt-8">
                 <div className='p2'>
-                    <div className='flex justify-around'>
-                        <div className='flex flex-col items-center mt-5 border border-black rounded-2xl py-5 px-2 text-2xl font-bold'> Tissue Box Sold  <div className='text-center mt-10'> 67 </div></div>
-                        <div className='mt-5 border border-black rounded-2xl py-5 px-2'> Video to be added here</div>
-                        <div className='mt-5 border border-black rounded-2xl py-5 px-2'>
+                    <div className='flex flex-col md:justify-around'>
+                        <div className='flex flex-col items-center mt-5 border rounded-2xl py-5 px-2 text-2xl font-bold'> Tissue Box Sold  <div className='text-center mt-10'> 67 </div></div>
+                        <div className='mt-5 border  rounded-2xl py-5 px-2 bg-black'> <div> <p className='text-white'> video added to be here here herer</p></div></div>
+                        <div className='mt-5 border  rounded-2xl py-5 px-2 bg-slate-500'>
                             <p className='text-center font-bold mb-2'> Checkout</p>
                             <div className='flex items-center'>
                                 <p>Current Price</p>
