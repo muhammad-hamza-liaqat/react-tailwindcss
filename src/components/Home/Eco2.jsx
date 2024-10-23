@@ -42,21 +42,31 @@ export default function Eco2() {
                 <div className="content flex flex-col items-center md:flex md:flex-row md:justify-center md:gap-14">
                     <div className="1">
                         <img src={c1} alt="" className='' style={{ width: '100px', height: 'auto' }} />
+                        <p className='text-white text-center'>Power Up</p>
+                        <p className='text-white text-center'> Staking Rewards</p>
+
                     </div>
                     <div className="2">
                         <img src={c2} alt="" style={{ width: '100px', height: 'auto' }} />
+                        <p className='text-white text-center'>Unlock VIP</p>
+                        <p className='text-white text-center'>Contents</p>
                     </div>
                     <div className="3">
                         <img src={c3} alt="" style={{ width: '100px', height: 'auto' }} />
+                        <p className='text-white text-center'>Additional</p>
+                        <p className='text-white text-center'>Rewards(NFTs,</p>
+                        <p className='text-white text-center' >AirDrop)</p>
                     </div>
                     <div className="4">
                         <img src={c4} alt="" style={{ width: '100px', height: 'auto' }} />
+                        <p className='text-white text-center'>$SPLA Daily</p>
+                        <p className='text-white text-center'>Income</p>
                     </div>
                 </div>
             </div>
 
             {/* text of content and benefits */}
-            <div className="mains hidden md:block" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
+            {/* <div className="mains hidden md:block" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
                 <div className='flex  text-white md:justify-center md: gap-16'>
                     <div className="1">
                         <p>
@@ -84,7 +94,7 @@ export default function Eco2() {
                         <p>Income</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
