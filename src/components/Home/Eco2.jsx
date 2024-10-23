@@ -57,7 +57,7 @@ export default function Eco2() {
 
             {/* text of content and benefits */}
             <div className="mains hidden md:block" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
-                <div className='flex  text-white md:gap-14 md:ml-24'>
+                <div className='flex  text-white md:gap-14 md:ml-96'>
                     <div className="1">
                         <p>
                             Power Up
