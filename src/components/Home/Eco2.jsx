@@ -39,7 +39,7 @@ export default function Eco2() {
             {/* content and benefits */}
             <div className="main" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
                 <p className='text-white text-center text-2xl mb-12'>Contents & Benefits </p>
-                <div className="content flex justify-center gap-14">
+                <div className="content flex flex-col items-center md:flex md:flex-row md:justify-center md:gap-14">
                     <div className="1">
                         <img src={c1} alt="" className='' style={{ width: '100px', height: 'auto' }} />
                     </div>
@@ -56,8 +56,8 @@ export default function Eco2() {
             </div>
 
             {/* text of content and benefits */}
-            <div className="mains" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
-                <div className='flex  text-white gap-14 md:ml-96'>
+            <div className="mains hidden md:block" style={{ backgroundImage: 'linear-gradient(to right,#17071F, #390512, #18051C)' }}>
+                <div className='flex  text-white md:gap-14 md:ml-24'>
                     <div className="1">
                         <p>
                             Power Up
